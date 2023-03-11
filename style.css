@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+selection-1-bg {
+    background-image: url(assets/background.jpg);
+}
