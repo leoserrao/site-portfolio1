@@ -26,6 +26,7 @@
     
 }
 
+/* O aside conterá a Barra de navegação lateral*/
 aside{
     position: absolute;
     top: 0;
@@ -34,7 +35,8 @@ aside{
     overflow: hidden;
 }
 
-.icon-menu img{
+/* altera a tag img do menu hamburg */
+.icon-menu img{ 
     width: 45px;
     height: 45px;
     margin-right: 15px;
@@ -58,7 +60,7 @@ aside{
     color: #fff;
     text-decoration: none;
     font-size: 15px;
-    width: 100%;
+    width: 100px;
   
 }
 
@@ -70,6 +72,7 @@ aside{
 
 }
 
+/* altera a classe da seção de ícones de redes sociais */
 .C-icon{
 
     margin-top: 100%;
@@ -98,9 +101,7 @@ aside{
    flex-direction: column;
    justify-content: center;
    margin-left: 20%;
-   flex-wrap: wrap;
-   
- 
+   flex-wrap: wrap; /* Os itens flexíveis se dividem em várias linhas. */
 }
 
 .main-title h1{
@@ -108,8 +109,8 @@ aside{
     color: #fff;
     margin-top: 15%;
     font-family: "Poppins";
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-weight: bold; /* Espessura da fonte */
+    letter-spacing: 2px; /* Espaçamento horizontal da letra */
     
 
 }
